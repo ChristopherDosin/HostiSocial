@@ -30,13 +30,21 @@ Now enable the Plugin, after this you can activate the new Theme in your Theme M
 
 ## Plugin Update
 
-**Bitte meldet euch in unseren [Newsletter](http://hostianer.us9.list-manage.com/subscribe?u=4e55406fb502f96bc7d02c0b0&id=fbcf3df405) an, um über Updates informiert zu werden.**
+**Please subscribe to out [Newsletter](http://hostianer.us9.list-manage.com/subscribe?u=4e55406fb502f96bc7d02c0b0&id=fbcf3df405) to get the latest updates!**
 
 Da dieses Plugin Open Source ist und nicht im Shopware Store verfügbar ist, funktioniert das automatische
 Update durch den Plugin Manager nicht. Meldet euch daher in unseren [Newsletter](http://hostianer.us9.list-manage.com/subscribe?u=4e55406fb502f96bc7d02c0b0&id=fbcf3df405) an,
 ansonsten werdet Ihr über zukünftige Updates nicht informiert!
 
-Um das Update durchzuführen geht wie bei der normalen Installation vor und überschreibt das aktuelle Plugin auf dem FTP.
+### FTP User Plugin Update
+Same as the installation step. Just override all new files.
+
+### Commandline Plugin Update
+`cd` into the folder as described and clone the Repo.
+```
+cd /engine/Shopware/Plugins/Local/Frontend
+git pull
+```
 
 ## Changelog
 
