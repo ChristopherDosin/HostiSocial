@@ -40,7 +40,7 @@ ansonsten werdet Ihr über zukünftige Updates nicht informiert!
 Same as the [Installation Step](https://github.com/hostianer/HostiSocial#ftp-user). Just make sure to override all new files.
 
 ### Commandline Plugin Update
-`cd` into the folder as described and clone the Repo.
+`cd` into the folder as described and make a `git pull` of the Repo.
 ```
 cd /engine/Shopware/Plugins/Local/Frontend
 git pull
