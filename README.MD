@@ -2,7 +2,7 @@
 
 
 # Social Plugin for Shopware5
-Mit diesem Plugin könnt Ihr in der Artikel Ansicht Social Buttons anzeigen lassen.
+This Plugin adds some Social Share Buttons to the Detail/Product View in the SW5 Responsive Theme.
 
 ![Social Plugin](http://fs2.directupload.net/images/150713/uppgvh4w.png)
 
