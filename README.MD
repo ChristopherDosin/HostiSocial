@@ -4,6 +4,8 @@
 # Social Plugin for Shopware5
 Mit diesem Plugin könnt Ihr in der Artikel Ansicht Social Buttons anzeigen lassen.
 
+![Social Plugin](http://fs2.directupload.net/images/150713/uppgvh4w.png)
+
 ## Installation
 
 ### Commandline
