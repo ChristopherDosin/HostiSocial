@@ -1,4 +1,4 @@
-[![Travis branch](https://img.shields.io/travis/joyent/node/v0.6.svg)]() [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)]() [![Travis](https://img.shields.io/badge/Shopware-5-blue.svg)]()
+[![Travis branch](https://img.shields.io/travis/joyent/node/v0.6.svg)]() [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)]() [![Travis](https://img.shields.io/badge/Shopware-5-blue.svg)]() [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/hostianer/chat?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 
 # Social Plugin for Shopware5
@@ -24,6 +24,10 @@ Now enable the Plugin, after this you can activate the new Theme in your Theme M
 * Upload the folder "HostiSocial" to your ftp to engine/Shopware/Plugins/Local/Frontend
 * Install and enable the Plugin in the plugin manager
 * Set your height/width in the plugin settings
+
+### Support Chat
+
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/hostianer/chat?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ## Plugin Update
 
