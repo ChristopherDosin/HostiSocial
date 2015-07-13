@@ -22,8 +22,7 @@ Now enable the Plugin, after this you can activate the new Theme in your Theme M
 * Unzip the archiv
 * Change the name of the folder from **HostiSocial-1.X** to **HostiSocial** .
 * Upload the folder "HostiSocial" to your ftp to engine/Shopware/Plugins/Local/Frontend
-* Install and enable the Plugin in the plugin manager
-* Set your height/width in the plugin settings
+* Install and enable the Plugin in your Plugin Manager
 
 ### Support Chat
 
