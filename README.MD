@@ -30,7 +30,7 @@ Now enable the Plugin, after this you can activate the new Theme in your Theme M
 
 ## Plugin Update
 
-**Please subscribe to out [Newsletter](http://hostianer.us9.list-manage.com/subscribe?u=4e55406fb502f96bc7d02c0b0&id=fbcf3df405) to get the latest updates!**
+**Please subscribe to our [Newsletter](http://hostianer.us9.list-manage.com/subscribe?u=4e55406fb502f96bc7d02c0b0&id=fbcf3df405) to get the latest updates!**
 
 Da dieses Plugin Open Source ist und nicht im Shopware Store verfügbar ist, funktioniert das automatische
 Update durch den Plugin Manager nicht. Meldet euch daher in unseren [Newsletter](http://hostianer.us9.list-manage.com/subscribe?u=4e55406fb502f96bc7d02c0b0&id=fbcf3df405) an,
