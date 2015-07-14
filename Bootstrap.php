@@ -43,6 +43,8 @@ class Shopware_Plugins_Frontend_HostiSocial_Bootstrap extends Shopware_Component
             'onFrontendPostDispatch'
         );
 
+        $this->createConfig();
+
         return true;
     }
 
@@ -53,6 +55,29 @@ class Shopware_Plugins_Frontend_HostiSocial_Bootstrap extends Shopware_Component
             'success' => true,
             'invalidateCache' => ['template', 'theme']
         ];
+    }
+
+    private function createConfig()
+    {
+        $form = $this->Form();
+
+        $form->setElement(
+            'text',
+            'fb_url',
+            ['scope' => Shopware\Models\Config\Element::SCOPE_SHOP, 'label' => 'Facebook URL','value' => '', 'description' => 'Gebe deine Facebook URL inkl https an.']
+        );
+
+        $form->setElement(
+            'number',
+            'fb_app_id',
+            ['scope' => Shopware\Models\Config\Element::SCOPE_SHOP, 'label' => 'Facebook URL','value' => '', 'description' => 'Deine APP ID von deiner Facebook Seite.']
+        );
+
+        $form->setElement(
+            'text',
+            'twitter_username',
+            ['scope' => Shopware\Models\Config\Element::SCOPE_SHOP, 'label' => 'Twitter Username','value' => '', 'description' => 'Dein Twitter Username ohne @']
+        );
     }
 
 
@@ -94,5 +119,8 @@ class Shopware_Plugins_Frontend_HostiSocial_Bootstrap extends Shopware_Component
         $view->addTemplateDir(
             __DIR__ . '/Views'
         );
+        $view->assign('fb_url', $this->Config()->get('fb_url'));
+        $view->assign('fb_app_id', $this->Config()->get('fb_app_id'));
+        $view->assign('twitter_username', $this->Config()->get('twitter_username'));
     }
 }
