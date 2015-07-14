@@ -49,6 +49,7 @@ git pull
 ## Changelog
 
 Important versions listed below. Refer to the [Changelog](CHANGELOG.md) for a full history of the project.
+- [1.1](CHANGELOG.md) - 2015-07-14
 - [1.0](CHANGELOG.md) - 2015-07-13
 
 ## License
