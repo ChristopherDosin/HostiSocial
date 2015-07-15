@@ -1,3 +1,8 @@
+### v1.2 - 2015-07-15
+`added`
+- clear property
+- plugin option for margin top/bottom
+
 ### v1.1 - 2015-07-14
 `removed`
 - email sharer
