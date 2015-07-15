@@ -1,5 +1,5 @@
 <?php
-class Shopware_Plugins_Frontend_HostiSocial_Bootstrap extends Shopware_Components_Plugin_Bootstrap
+class Shopware_Plugins_Frontend_HostiStickyNavbar_Bootstrap extends Shopware_Components_Plugin_Bootstrap
 {
 
     public function getLabel()
