@@ -62,6 +62,18 @@ class Shopware_Plugins_Frontend_HostiSocial_Bootstrap extends Shopware_Component
         $form = $this->Form();
 
         $form->setElement(
+            'number',
+            'margin-top',
+            ['scope' => Shopware\Models\Config\Element::SCOPE_SHOP, 'label' => 'Abstand nach oben','value' => '0', 'description' => 'Der Abstand nach oben hin in Zahlen.']
+        );
+
+        $form->setElement(
+            'number',
+            'margin-bottom',
+            ['scope' => Shopware\Models\Config\Element::SCOPE_SHOP, 'label' => 'Abstand nach unten','value' => '0', 'description' => 'Der Abstand nach unten hin in Zahlen.']
+        );
+
+        $form->setElement(
             'text',
             'fb_url',
             ['scope' => Shopware\Models\Config\Element::SCOPE_SHOP, 'label' => 'Facebook URL','value' => '', 'description' => 'Gebe deine Facebook URL inkl https an.']
@@ -85,7 +97,8 @@ class Shopware_Plugins_Frontend_HostiSocial_Bootstrap extends Shopware_Component
     {
         $less = new \Shopware\Components\Theme\LessDefinition(
             array(
-
+                'margin-top' => $this->Config()->get('margin-top'),
+                'margin-bottom' => $this->Config()->get('margin-bottom'),
             ),
             //less files to compile
             array(
