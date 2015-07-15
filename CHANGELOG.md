@@ -1,6 +1,7 @@
 ### v1.2 - 2015-07-15
 `added`
 - clear property
+- fixed facebook app id label
 - plugin option for margin top/bottom
 
 ### v1.1 - 2015-07-14
