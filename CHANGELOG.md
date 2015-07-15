@@ -1,4 +1,8 @@
 ### v1.2 - 2015-07-15
+`fixed`
+- less compile
+
+### v1.2 - 2015-07-15
 `added`
 - clear property
 - fixed facebook app id label

@@ -9,7 +9,7 @@ class Shopware_Plugins_Frontend_HostiSocial_Bootstrap extends Shopware_Component
 
     public function getVersion()
     {
-        return '1.2';
+        return '1.3';
     }
 
     public function getInfo()
