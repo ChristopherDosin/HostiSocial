@@ -17,7 +17,7 @@
     <meta name="article:publisher" content="{$fb_url}" />
     {/if}
 
-    <meta name="twitter:card" content="product" />
+    <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" property="og:title" content="{$sArticle.articleName|escape:"html"}"/>
     <meta name="twitter:url" property="og:url" content="{$sArticle.linkDetailsRewrited}"/>
     <meta name="twitter:image:src" property="og:image" content="{$sArticle.image.thumbnails[2].source}"/>
