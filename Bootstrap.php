@@ -82,7 +82,7 @@ class Shopware_Plugins_Frontend_HostiSocial_Bootstrap extends Shopware_Component
         $form->setElement(
             'number',
             'fb_app_id',
-            ['scope' => Shopware\Models\Config\Element::SCOPE_SHOP, 'label' => 'Facebook URL','value' => '', 'description' => 'Deine APP ID von deiner Facebook Seite.']
+            ['scope' => Shopware\Models\Config\Element::SCOPE_SHOP, 'label' => 'Facebook APP ID','value' => '', 'description' => 'Deine APP ID von deiner Facebook Seite.']
         );
 
         $form->setElement(
