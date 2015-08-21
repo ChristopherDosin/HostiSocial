@@ -1,4 +1,4 @@
-{extends file="parent:frontend/index/header.tpl"}
+{extends file="parent:frontend/detail/header.tpl"}
 
 {block name='frontend_index_header_meta_tags_schema_webpage' append}
 
