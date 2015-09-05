@@ -262,8 +262,11 @@
   }
 }
 .rrssb-buttons:after,.rrssb-buttons:before {
-  content: ' ';
-  display: table;
+  content: ".";
+  clear: both;
+  display: block;
+  visibility: hidden;
+  height: 0;
 }
 .rrssb-buttons li a .rrssb-icon svg path,.rrssb-buttons li a .rrssb-icon svg polygon {
   fill: #fff;
