@@ -17,8 +17,8 @@ class Shopware_Plugins_Frontend_HostiSocial_Bootstrap extends Shopware_Component
         return array(
             'version' => $this->getVersion(),
             'label' => $this->getLabel(),
-            'author' => 'Hostianer Media UG',
-            'supplier' => 'Hostianer Media UG',
+            'author' => 'Hostianer Media UG (haftungsbeschränkt)',
+            'supplier' => 'Hostianer Media UG (haftungsbeschränkt)',
             'description' => 'Bindet Social Buttons in der Detail Ansicht ein.',
             'support' => 'Shopware Forum',
             'link' => 'https://blog.hostianer.de'
